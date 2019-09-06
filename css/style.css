@@ -154,7 +154,8 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px; }
   .site-footer .footer-heading {
     font-size: 16px;
-    color: #818186 !important; }
+    color: #818186 !important;
+     }
 
 .bg-text-line {
   display: inline;
@@ -807,7 +808,7 @@ h1, h2, h3, h4, h5,
     color: red;
     transform: scale(1); } }
 
-.icon-heart {
+body .icon-heart {
   color: red;
   transition: all 1s ease-in-out;
   animation: beat 1s infinite; }
@@ -849,4 +850,20 @@ input{
 
 .centering{
   text-align: center;
+}
+
+.fa{
+  font-size: 35px;
+  padding: 4px;
+}
+
+.fa .fa-heart{
+  font-size: 1.0em;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 768px){
+    .site-footer .footer-heading {
+    padding-top: 50px;
+     }
 }
