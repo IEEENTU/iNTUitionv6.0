@@ -154,7 +154,8 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px; }
   .site-footer .footer-heading {
     font-size: 16px;
-    color: #818186 !important; }
+    color: #818186 !important;
+     }
 
 .bg-text-line {
   display: inline;
@@ -807,7 +808,7 @@ h1, h2, h3, h4, h5,
     color: red;
     transform: scale(1); } }
 
-.icon-heart {
+body .icon-heart {
   color: red;
   transition: all 1s ease-in-out;
   animation: beat 1s infinite; }
@@ -850,3 +851,48 @@ input{
 .centering{
   text-align: center;
 }
+
+.fab{
+  font-size: 35px;
+  padding: 4px;
+}
+
+.fa .fa-heart{
+  font-size: 1.0em;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 768px){
+    .site-footer .footer-heading {
+    padding-top: 50px;
+     }
+}
+
+  body .faq {
+    text-align: center;
+    background: transparent;
+    color: white;
+    min-height: 100vh;
+    padding-top: 80px;
+    margin-left: 0; }
+    body .faq br {
+      font-size: 0.1em;
+      padding: 0; }
+    body .faq .row {
+      margin-top: 30px; }
+    body .faq .col-md-10 {
+      padding: 30px 30px 5px;
+      margin-top: 0; }
+      body .faq .col-md-10 i {
+        border: 2px solid #ff5733;
+        border-radius: 100px;
+        margin-bottom: 4%;
+        color: #ff5733; }
+      body .faq .col-md-10 h5 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em; }
+      body .faq .col-md-10 li {
+        text-align: left;
+        font-size: 1em;
+        margin-top: 20px; }
