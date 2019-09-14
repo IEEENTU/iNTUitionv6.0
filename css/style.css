@@ -866,6 +866,10 @@ input{
     .site-footer .footer-heading {
     padding-top: 50px;
      }
+
+     .padtop{
+      padding-top: 100px;
+     }
 }
 
   body .faq {
