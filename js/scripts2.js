@@ -55,7 +55,11 @@ function verifyAndRedirect() {
   var registerFormJson = {};
   for (var i = 0; i < registerFormData.length; i++) {
     var currField = registerFormData[i].split("=");
-    if (i != registerFormData.length - 1) {
+    console.log(currField);
+    if (
+      i != registerFormData.length - 1 &&
+      currField[0] != "If yes, what is your team name?"
+    ) {
       if (currField[1] === "") {
         // toastr.error('Error','You haven\'t entered all details!')
         alert("You haven't entered all details!");
@@ -73,6 +77,12 @@ function verifyAndRedirect() {
   if (registerFormJson["Phone Number"].search(phoneRegex) == -1) {
     alert("enter a valid phone number");
     return;
+  }
+  if (registerFormJson["Are you taking part in a team?"] == "Yes") {
+    if (registerFormJson["If yes, what is your team name?"] == "") {
+      alert("please enter team name");
+      return;
+    }
   }
   console.log("data entered correctly");
   storeFirebase(registerFormJson);
