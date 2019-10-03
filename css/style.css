@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5,
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 2.5em 0; } }
+      padding: 6em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     @media (min-width: 768px) {
       .site-hero .caption {
-        font-size: 1rem; } }
+        font-size: 1.4rem; } }
 
 .btn-custom {
   text-transform: uppercase;
