@@ -92,7 +92,7 @@ function verifyAndRedirect() {
 async function storeFirebase(registerData) {
   await firebase
     .firestore()
-    .collection("registrationData")
+    .collection("waitlistData")
     .add(registerData);
   window.location.href = "./success.html";
 }

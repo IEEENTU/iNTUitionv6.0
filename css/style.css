@@ -296,8 +296,8 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: absolute;
   width: 100%; }
-  .site-navbar.transparent {
-    background: transparent; }
+  .site-navbar{
+    background: #232531; }
   .site-navbar.absolute {
     position: absolute;
     top: 0;
@@ -903,4 +903,19 @@ input{
         font-size: 1em;
         margin-top: 20px; }
 
+
+.prizes h1 {
+    font-size: 1rem;
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(70%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 70%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 70%);
+    background: linear-gradient(to right, #c70039, #ff5733 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
