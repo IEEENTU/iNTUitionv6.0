@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f38fe7d.chunk.css",
+    "main.js": "/static/js/main.8eef122a.chunk.js",
+    "main.js.map": "/static/js/main.8eef122a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.175cd235.js",
+    "runtime-main.js.map": "/static/js/runtime-main.175cd235.js.map",
+    "static/css/2.cffc3f4a.chunk.css": "/static/css/2.cffc3f4a.chunk.css",
+    "static/js/2.d470685a.chunk.js": "/static/js/2.d470685a.chunk.js",
+    "static/js/2.d470685a.chunk.js.map": "/static/js/2.d470685a.chunk.js.map",
+    "static/js/3.b950c929.chunk.js": "/static/js/3.b950c929.chunk.js",
+    "static/js/3.b950c929.chunk.js.map": "/static/js/3.b950c929.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.cffc3f4a.chunk.css.map": "/static/css/2.cffc3f4a.chunk.css.map",
+    "static/css/main.9f38fe7d.chunk.css.map": "/static/css/main.9f38fe7d.chunk.css.map",
+    "static/js/2.d470685a.chunk.js.LICENSE.txt": "/static/js/2.d470685a.chunk.js.LICENSE.txt",
+    "static/media/hacker.fc146fe9.svg": "/static/media/hacker.fc146fe9.svg",
+    "static/media/ieeelogo.30a62601.svg": "/static/media/ieeelogo.30a62601.svg",
+    "static/media/intuition.0cfcaf0b.svg": "/static/media/intuition.0cfcaf0b.svg",
+    "static/media/parallax.39f13d47.svg": "/static/media/parallax.39f13d47.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.175cd235.js",
+    "static/css/2.cffc3f4a.chunk.css",
+    "static/js/2.d470685a.chunk.js",
+    "static/css/main.9f38fe7d.chunk.css",
+    "static/js/main.8eef122a.chunk.js"
+  ]
+}
